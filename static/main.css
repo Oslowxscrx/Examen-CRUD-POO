@@ -1,0 +1,9 @@
+.fondo{
+    background: linear-gradient(#41178b, rgb(21, 0, 46));
+}
+.letra{
+    background-color: #1e0052;
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}

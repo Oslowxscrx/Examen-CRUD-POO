@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTADORAS</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="/static/main.css">
+
+</head>
+
+<body class="fondo">
+
+    <div class="container">
+        <div class="col-md-4 offset-md-4">
+            <br>
+            <hr>
+            <center><h1 class="letra">COMPUTADORAS PROS ON</h1></center>
+            <hr>
+            <center><img src="/static/img/pro.webp" alt="" width="300" height="200"></center>
+            <br>
+            <form  id="userForm" class="card card-body text-white " style="background-color: rgb(0, 1, 90);" >
+                <label for="username">Procesador</label>
+                <input type="text" name="procesador" placeholder="Procesador que requiere" class="form-control mb-2" required>
+                <br>
+                <label for="username">Costo</label>
+                <input type="numeric" name="costo" placeholder="Costo disponible" class="form-control mb-2" required>
+                <br>
+                <label for="username">Marca</label>
+                <input type="text" name="marca" placeholder="Marca" class="form-control mb-2" required>
+                <br>
+                <label for="username">Número de Nucleos</label>
+                <input type="text" name="numero" placeholder="Numero de Nucleos" class="form-control mb-2" required>
+                <br>
+                <button class="btn btn-primary">Save</button>
+            </form>
+            <br>
+            <hr>
+            <ul id="userList" class="list-group">
+
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        
+
+
+
+
+    </div>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
